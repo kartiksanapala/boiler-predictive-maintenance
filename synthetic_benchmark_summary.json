@@ -1,0 +1,38 @@
+{
+  "project": "LLM-Assisted Boiler Predictive Maintenance",
+  "evaluation_type": "event-level sensitivity on controlled synthetic events",
+  "synthetic_events_total": 24,
+  "benchmarks": 3,
+  "events_per_benchmark": 8,
+  "event_patterns": [
+    "drift",
+    "group_shift",
+    "noise_burst",
+    "offset",
+    "stuck"
+  ],
+  "results": [
+    {
+      "detector": "PCA",
+      "detected_events": 7,
+      "total_synthetic_events": 24,
+      "event_detection_rate_percent": 29.17,
+      "interpretation": "7 of 24 injected events detected in the selected synthetic benchmark."
+    },
+    {
+      "detector": "Soft Sensor",
+      "detected_events": 13,
+      "total_synthetic_events": 24,
+      "event_detection_rate_percent": 54.17,
+      "interpretation": "Highest event count in this selected benchmark; 11 of 24 injected events were not detected."
+    },
+    {
+      "detector": "SS-EWMA",
+      "detected_events": 9,
+      "total_synthetic_events": 24,
+      "event_detection_rate_percent": 37.5,
+      "interpretation": "9 of 24 injected events detected in the selected synthetic benchmark."
+    }
+  ],
+  "important_caveat": "These are not real-world boiler failure prediction accuracy, precision, recall, or F1. The dataset has no verified historical fault labels."
+}

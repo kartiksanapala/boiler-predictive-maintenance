@@ -1,0 +1,4 @@
+detector,detected_events,total_synthetic_events,event_detection_rate_percent,interpretation
+PCA,7,24,29.17,7 of 24 injected events detected in the selected synthetic benchmark.
+Soft Sensor,13,24,54.17,Highest event count in this selected benchmark; 11 of 24 injected events were not detected.
+SS-EWMA,9,24,37.5,9 of 24 injected events detected in the selected synthetic benchmark.

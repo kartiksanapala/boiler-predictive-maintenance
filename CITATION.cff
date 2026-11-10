@@ -1,0 +1,6 @@
+cff-version: 1.2.0
+message: "If you use this academic prototype, please cite the project report and identify the dataset and document versions used."
+title: "LLM-Assisted Boiler Predictive Maintenance"
+type: software
+version: 1.0.0
+date-released: 2026-11-10

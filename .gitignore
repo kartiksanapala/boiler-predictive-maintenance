@@ -1,0 +1,25 @@
+# Environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.cache/
+\.pytest_cache/
+
+# Local datasets and source manuals (check permissions before publishing)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+documents/*
+!documents/.gitkeep
+outputs/*
+!outputs/.gitkeep
+*.faiss
+*.index
+*.joblib
+*.pt
+*.bin
+*.safetensors
+.env

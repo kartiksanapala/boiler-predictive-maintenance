@@ -1,0 +1,13 @@
+numpy
+pandas
+matplotlib
+scikit-learn
+scipy
+joblib
+seaborn
+pypdf
+sentence-transformers
+faiss-cpu
+transformers
+accelerate
+torch
